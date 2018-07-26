@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7DA"
+    tools:context="com.android.touchevent.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#9c27b0">
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="NUMBERS"
+        android:textSize="25sp"
+        android:paddingLeft="16dp"
+        android:background="?android:selectableItemBackground"
+        android:gravity="center_vertical" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#e91e63">
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="FAMILY"
+        android:textSize="25sp"
+        android:paddingLeft="16dp"
+        android:background="?android:selectableItemBackground"
+
+        android:gravity="center_vertical" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#03a9f4">
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="COLORS"
+        android:textSize="25sp"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"
+        android:background="?android:selectableItemBackground" />
+    </FrameLayout>
+</LinearLayout>
